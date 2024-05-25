@@ -18,7 +18,32 @@ a {
     text-decoration: none;
 }
 
-#table_div_uni_sex_post {
+.btn {
+    background-color: blue; /* Fondo azul */
+    color: white; /* Color de letra blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Cambiar color de letra al pasar por encima */
+.btn:hover {
+    color: lightgray;
+}
+
+/* Cambiar fondo al hacer clic */
+.btn:active {
+    background-color: darkblue;
+}
+
+#table_div_uni_sex_post, #table_div_uni_sex_win,
+#table_div_cou_sex_post, #table_div_cou_sex_win,
+#table_div_reg_sex_post, #table_div_reg_sex_win,
+#table_div_yea_sex_post, #table_div_yea_sex_win,
+#table_div_sem_sex_post, #table_div_sem_sex_win
+{
     width: 80%;
     margin: 0 auto;
 }
