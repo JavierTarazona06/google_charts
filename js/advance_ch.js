@@ -1,99 +1,99 @@
 google.charts.load('current', {'packages':['corechart']});
 //----------------------------------------------------------------------------
 //----------------------------------------------------------------------------
-var dataList_univ_pbm_post = [
-    {'university': 'UNAL', 'min': 45, 'max': 80},
-    {'university': 'UNIANDES', 'min': 15, 'max': 90},
+var dataList_univ_adv_post = [
+    {'university': 'UNAL', 'min': 40, 'max': 95},
+    {'university': 'UNIANDES', 'min': 55, 'max': 85},
 ];
 google.charts.setOnLoadCallback(function() {
-    drawChartCandle('university', dataList_univ_pbm_post, 'PBM', 'Universidades', 'uni', 'pbm', 'post');
+    drawChartCandle('university', dataList_univ_adv_post, 'Avance de carrera', 'Universidades', 'uni', 'adv', 'post');
 });
 
-var dataList_univ_pbm_win = [
-    {'university': 'UNAL', 'min': 50, 'max': 70},
-    {'university': 'UNIANDES', 'min': 40, 'max': 65},
+var dataList_univ_adv_win = [
+    {'university': 'UNAL', 'min': 60, 'max': 95},
+    {'university': 'UNIANDES', 'min': 65, 'max': 80},
 ];
 google.charts.setOnLoadCallback(function() {
-    drawChartCandle('university', dataList_univ_pbm_win, 'PBM', 'Universidades', 'uni', 'pbm', 'win');
-});
-
-//----------------------------------------------------------------------------
-//----------------------------------------------------------------------------
-
-var dataList_country_pbm_post = [
-    {'country': 'Mexico', 'min': 45, 'max': 80},
-    {'country': 'Canadá', 'min': 15, 'max': 90},
-    {'country': 'Francia', 'min': 45, 'max': 80},
-];
-google.charts.setOnLoadCallback(function() {
-   drawChartCandle('country', dataList_country_pbm_post, 'PBM', 'Paises', 'cou', 'pbm', 'post');
-});
-
-var dataList_country_pbm_win = [
-    {'country': 'Mexico', 'min': 50, 'max': 70},
-    {'country': 'Canadá', 'min': 40, 'max': 65},
-    {'country': 'Francia', 'min': 50, 'max': 70},
-];
-google.charts.setOnLoadCallback(function() {
-   drawChartCandle('country', dataList_country_pbm_win, 'PBM', 'Paises', 'cou', 'pbm', 'win');
+    drawChartCandle('university', dataList_univ_adv_win, 'Avance de carrera', 'Universidades', 'uni', 'adv', 'win');
 });
 
 //----------------------------------------------------------------------------
 //----------------------------------------------------------------------------
 
-var dataList_region_pbm_post = [
-    {'region': 'Uniandes', 'min': 45, 'max': 80},
-    {'region': 'Norteamérica', 'min': 15, 'max': 90},
+var dataList_country_adv_post = [
+    {'country': 'Mexico', 'min': 40, 'max': 95},
+    {'country': 'Canadá', 'min': 55, 'max': 85},
+    {'country': 'Francia', 'min': 40, 'max': 95},
 ];
 google.charts.setOnLoadCallback(function() {
-   drawChartCandle('region', dataList_region_pbm_post, 'PBM', 'Regiones', 'reg', 'pbm', 'post');
+   drawChartCandle('country', dataList_country_adv_post, 'Avance de carrera', 'Paises', 'cou', 'adv', 'post');
 });
 
-var dataList_region_pbm_win = [
-    {'region': 'Uniandes', 'min': 50, 'max': 70},
-    {'region': 'Norteamérica', 'min': 40, 'max': 65},
+var dataList_country_adv_win = [
+    {'country': 'Mexico', 'min': 60, 'max': 95},
+    {'country': 'Canadá', 'min': 65, 'max': 80},
+    {'country': 'Francia', 'min': 60, 'max': 95},
 ];
 google.charts.setOnLoadCallback(function() {
-   drawChartCandle('region', dataList_region_pbm_win, 'PBM', 'Regiones', 'reg', 'pbm', 'win');
+   drawChartCandle('country', dataList_country_adv_win, 'Avance de carrera', 'Paises', 'cou', 'adv', 'win');
+});
+
+//----------------------------------------------------------------------------
+//----------------------------------------------------------------------------
+
+var dataList_region_adv_post = [
+    {'region': 'Uniandes', 'min': 40, 'max': 95},
+    {'region': 'Norteamérica', 'min': 55, 'max': 85},
+];
+google.charts.setOnLoadCallback(function() {
+   drawChartCandle('region', dataList_region_adv_post, 'Avance de carrera', 'Regiones', 'reg', 'adv', 'post');
+});
+
+var dataList_region_adv_win = [
+    {'region': 'Uniandes', 'min': 60, 'max': 95},
+    {'region': 'Norteamérica', 'min': 65, 'max': 80},
+];
+google.charts.setOnLoadCallback(function() {
+   drawChartCandle('region', dataList_region_adv_win, 'Avance de carrera', 'Regiones', 'reg', 'adv', 'win');
 });
 
 
 //----------------------------------------------------------------------------
 //----------------------------------------------------------------------------
 
-var dataList_yea_pbm_post = [
-    {'year': '2023', 'min': 45, 'max': 80},
-    {'year': '2024', 'min': 15, 'max': 90},
+var dataList_yea_adv_post = [
+    {'year': '2023', 'min': 40, 'max': 95},
+    {'year': '2024', 'min': 55, 'max': 85},
 ];
 google.charts.setOnLoadCallback(function() {
-   drawChartCandle('year', dataList_yea_pbm_post, 'PBM', 'Años', 'yea', 'pbm', 'post');
+   drawChartCandle('year', dataList_yea_adv_post, 'Avance de carrera', 'Años', 'yea', 'adv', 'post');
 });
 
-var dataList_yea_pbm_win = [
-    {'year': '2023', 'min': 50, 'max': 70},
-    {'year': '2024', 'min': 40, 'max': 65},
+var dataList_yea_adv_win = [
+    {'year': '2023', 'min': 60, 'max': 95},
+    {'year': '2024', 'min': 65, 'max': 80},
 ];
 google.charts.setOnLoadCallback(function() {
-   drawChartCandle('year', dataList_yea_pbm_win, 'PBM', 'Años', 'yea', 'pbm', 'win');
+   drawChartCandle('year', dataList_yea_adv_win, 'Avance de carrera', 'Años', 'yea', 'adv', 'win');
 });
 
 //----------------------------------------------------------------------------
 //----------------------------------------------------------------------------
 
-var dataList_sem_pbm_post = [
-    {'semester': '1', 'min': 45, 'max': 80},
-    {'semester': '2', 'min': 15, 'max': 90},
+var dataList_sem_adv_post = [
+    {'semester': '1', 'min': 40, 'max': 95},
+    {'semester': '2', 'min': 55, 'max': 85},
 ];
 google.charts.setOnLoadCallback(function() {
-   drawChartCandle('semester', dataList_sem_pbm_post, 'PBM', 'Semestres', 'sem', 'pbm', 'post');
+   drawChartCandle('semester', dataList_sem_adv_post, 'Avance de carrera', 'Semestres', 'sem', 'adv', 'post');
 });
 
-var dataList_sem_pbm_win = [
-    {'semester': '1', 'min': 50, 'max': 70},
-    {'semester': '2', 'min': 40, 'max': 65},
+var dataList_sem_adv_win = [
+    {'semester': '1', 'min': 60, 'max': 95},
+    {'semester': '2', 'min': 65, 'max': 80},
 ];
 google.charts.setOnLoadCallback(function() {
-   drawChartCandle('semester', dataList_sem_pbm_win, 'PBM', 'Semestres', 'sem', 'pbm', 'win');
+   drawChartCandle('semester', dataList_sem_adv_win, 'Avance de carrera', 'Semestres', 'sem', 'adv', 'win');
 });
 
 //----------------------------------------------------------------------------
@@ -113,6 +113,7 @@ function drawChartCandle(dataList_call_field, dataList, category, x_title, div_c
         list_to_data.push([dataList[i][dataList_call_field], dataList[i]['min'], dataList[i]['min'], dataList[i]['max'], dataList[i]['max']])
     }
 
+
     var data = google.visualization.arrayToDataTable(list_to_data, true);
 
     var options = {
@@ -120,7 +121,7 @@ function drawChartCandle(dataList_call_field, dataList, category, x_title, div_c
         legend:'none',
         vAxis: {
             title: category,
-            maxValue: 100,
+            maxValue: 5,
             minValue: 0,
             titleTextStyle: {
                 color: 'blue',

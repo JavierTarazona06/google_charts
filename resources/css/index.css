@@ -148,7 +148,33 @@ a {
     margin: 0 auto;
 }
 
-#graph_div_uni_pbm_post, #graph_div_uni_pbm_win
+#graph_div_uni_pbm_post, #graph_div_uni_pbm_win,
+#graph_div_cou_pbm_post, #graph_div_cou_pbm_win,
+#graph_div_reg_pbm_post, #graph_div_reg_pbm_win,
+#graph_div_yea_pbm_post, #graph_div_yea_pbm_win,
+#graph_div_sem_pbm_post, #graph_div_sem_pbm_win
+{
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+#graph_div_uni_papa_post, #graph_div_uni_papa_win,
+#graph_div_cou_papa_post, #graph_div_cou_papa_win,
+#graph_div_reg_papa_post, #graph_div_reg_papa_win,
+#graph_div_yea_papa_post, #graph_div_yea_papa_win,
+#graph_div_sem_papa_post, #graph_div_sem_papa_win
+{
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+#graph_div_uni_adv_post, #graph_div_uni_adv_win,
+#graph_div_cou_adv_post, #graph_div_cou_adv_win,
+#graph_div_reg_adv_post, #graph_div_reg_adv_win,
+#graph_div_yea_adv_post, #graph_div_yea_adv_win,
+#graph_div_sem_adv_post, #graph_div_sem_adv_win
 {
     width: 80%;
     height: 600px;
