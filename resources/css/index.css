@@ -18,6 +18,26 @@ a {
     text-decoration: none;
 }
 
+.btn0 {
+    background-color: green; /* Fondo azul */
+    color: white; /* Color de letra blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Cambiar color de letra al pasar por encima */
+.btn0:hover {
+    color: lightgray;
+}
+
+/* Cambiar fondo al hacer clic */
+.btn0:active {
+    background-color: darkgreen;
+}
+
 .btn {
     background-color: blue; /* Fondo azul */
     color: white; /* Color de letra blanco */
@@ -38,11 +58,71 @@ a {
     background-color: darkblue;
 }
 
+.btn2 {
+    background-color: darkorange; /* Fondo azul */
+    color: white; /* Color de letra blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Cambiar color de letra al pasar por encima */
+.btn2:hover {
+    color: lightgray;
+}
+
+/* Cambiar fondo al hacer clic */
+.btn2:active {
+    background-color: darkorange;
+}
+
 #table_div_uni_sex_post, #table_div_uni_sex_win,
 #table_div_cou_sex_post, #table_div_cou_sex_win,
 #table_div_reg_sex_post, #table_div_reg_sex_win,
 #table_div_yea_sex_post, #table_div_yea_sex_win,
 #table_div_sem_sex_post, #table_div_sem_sex_win
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#table_div_uni_stu_post, #table_div_uni_stu_win,
+#table_div_cou_stu_post, #table_div_cou_stu_win,
+#table_div_reg_stu_post, #table_div_reg_stu_win,
+#table_div_yea_stu_post, #table_div_yea_stu_win,
+#table_div_sem_stu_post, #table_div_sem_stu_win
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#table_div_uni_adm_post, #table_div_uni_adm_win,
+#table_div_cou_adm_post, #table_div_cou_adm_win,
+#table_div_reg_adm_post, #table_div_reg_adm_win,
+#table_div_yea_adm_post, #table_div_yea_adm_win,
+#table_div_sem_adm_post, #table_div_sem_adm_win
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#table_div_uni_fac_post, #table_div_uni_fac_win,
+#table_div_cou_fac_post, #table_div_cou_fac_win,
+#table_div_reg_fac_post, #table_div_reg_fac_win,
+#table_div_yea_fac_post, #table_div_yea_fac_win,
+#table_div_sem_fac_post, #table_div_sem_fac_win
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#table_div_uni_maj_post, #table_div_uni_maj_win,
+#table_div_cou_maj_post, #table_div_cou_maj_win,
+#table_div_reg_maj_post, #table_div_reg_maj_win,
+#table_div_yea_maj_post, #table_div_yea_maj_win,
+#table_div_sem_maj_post, #table_div_sem_maj_win
 {
     width: 80%;
     margin: 0 auto;
