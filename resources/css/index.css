@@ -78,6 +78,26 @@ a {
     background-color: darkorange;
 }
 
+.btn3 {
+    background-color: purple; /* Fondo azul */
+    color: white; /* Color de letra blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Cambiar color de letra al pasar por encima */
+.btn3:hover {
+    color: blue;
+}
+
+/* Cambiar fondo al hacer clic */
+.btn3:active {
+    background-color: #4B0082;
+}
+
 #table_div_uni_sex_post, #table_div_uni_sex_win,
 #table_div_cou_sex_post, #table_div_cou_sex_win,
 #table_div_reg_sex_post, #table_div_reg_sex_win,
@@ -125,6 +145,13 @@ a {
 #table_div_sem_maj_post, #table_div_sem_maj_win
 {
     width: 80%;
+    margin: 0 auto;
+}
+
+#graph_div_uni_pbm_post, #graph_div_uni_pbm_win
+{
+    width: 80%;
+    height: 600px;
     margin: 0 auto;
 }
 
