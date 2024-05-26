@@ -98,6 +98,11 @@ a {
     background-color: #4B0082;
 }
 
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/* Desde aquí son los estilos para las gráficas y las celdas de las tablas*/
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
 #table_div_uni_sex_post, #table_div_uni_sex_win,
 #table_div_cou_sex_post, #table_div_cou_sex_win,
 #table_div_reg_sex_post, #table_div_reg_sex_win,
